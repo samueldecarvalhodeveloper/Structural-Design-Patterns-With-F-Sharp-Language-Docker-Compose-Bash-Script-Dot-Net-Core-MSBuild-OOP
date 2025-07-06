@@ -1,7 +1,7 @@
 ![](./thumbnail.png)
 
 <h1 align="center">
-Structural Design Patterns With F Sharp Language, Docker Compose, Bash Script, Dot Net Core, NuGet, OOP
+Structural Design Patterns With F Sharp Language, Docker Compose, Bash Script, Dot Net Core, MSBuild, OOP
 </h1>
 
 <br/>
@@ -36,7 +36,7 @@ Structural Design Patterns With F Sharp Language, Docker Compose, Bash Script, D
 <p>To build this project is used:</p>
 
 - F Sharp Language
-- NuGet
+- MSBuild
 - Docker
 - Docker Compose
 - Bash Script
@@ -65,4 +65,4 @@ See more:
 
 <p align="center"><strong>Repository Link:</strong></p>
 
-[https://github.com/samueldecarvalhodeveloper/Structural-Design-Patterns-With-F-Sharp-Language-Docker-Compose-Bash-Script-Dot-Net-Core-NuGet-OOP](https://github.com/samueldecarvalhodeveloper/Structural-Design-Patterns-With-F-Sharp-Language-Docker-Compose-Bash-Script-Dot-Net-Core-NuGet-OOP)
+[https://github.com/samueldecarvalhodeveloper/Structural-Design-Patterns-With-F-Sharp-Language-Docker-Compose-Bash-Script-Dot-Net-Core-MSBuild-OOP](https://github.com/samueldecarvalhodeveloper/Structural-Design-Patterns-With-F-Sharp-Language-Docker-Compose-Bash-Script-Dot-Net-Core-MSBuild-OOP)
