@@ -1,0 +1,52 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <RootNamespace>StructuralDesignPatterns</RootNamespace>
+        <TargetFramework>net9.0</TargetFramework>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <Compile Include="Src\Adapter\Adapted.fs"/>
+        <Compile Include="Src\Adapter\Target.fs"/>
+        <Compile Include="Src\Adapter\TargetImplementation.fs"/>
+        <Compile Include="Src\Adapter\Context.fs"/>
+        <Compile Include="Src\Adapter\Adapter.fs"/>
+        <Compile Include="Src\Adapter\AdapterClient.fs"/>
+        <Compile Include="Src\Bridge\ImplementationInterface.fs" />
+        <Compile Include="Src\Bridge\Abstraction.fs" />
+        <Compile Include="Src\Bridge\Context.fs" />
+        <Compile Include="Src\Bridge\ExtendedAbstraction.fs" />
+        <Compile Include="Src\Bridge\ConcreteImplementationB.fs" />
+        <Compile Include="Src\Bridge\ConcreteImplementationA.fs" />
+        <Compile Include="Src\Bridge\BridgeClient.fs"/>
+        <Compile Include="Src\Composite\Component.fs" />
+        <Compile Include="Src\Composite\Leaf.fs" />
+        <Compile Include="Src\Composite\Composite.fs" />
+        <Compile Include="Src\Composite\Context.fs" />
+        <Compile Include="Src\Composite\CompositeClient.fs"/>
+        <Compile Include="Src\Decorator\ComponentInterface.fs" />
+        <Compile Include="Src\Decorator\ConcreteComponent.fs" />
+        <Compile Include="Src\Decorator\Decorator.fs" />
+        <Compile Include="Src\Decorator\ConcreteDecoratorA.fs" />
+        <Compile Include="Src\Decorator\ConcreteDecoratorB.fs" />
+        <Compile Include="Src\Decorator\Context.fs" />
+        <Compile Include="Src\Decorator\DecoratorClient.fs"/>
+        <Compile Include="Src\Facade\SubsystemOne.fs" />
+        <Compile Include="Src\Facade\SubsystemTwo.fs" />
+        <Compile Include="Src\Facade\Facade.fs" />
+        <Compile Include="Src\Facade\Context.fs" />
+        <Compile Include="Src\Facade\FacadeClient.fs"/>
+        <Compile Include="Src\Flyweight\Flyweight.fs" />
+        <Compile Include="Src\Flyweight\FlyweightFactory.fs" />
+        <Compile Include="Src\Flyweight\Context.fs" />
+        <Compile Include="Src\Flyweight\FlyweightClient.fs"/>
+        <Compile Include="Src\Proxy\SubjectInterface.fs" />
+        <Compile Include="Src\Proxy\RealSubject.fs" />
+        <Compile Include="Src\Proxy\Proxy.fs" />
+        <Compile Include="Src\Proxy\Context.fs" />
+        <Compile Include="Src\Proxy\ProxyClient.fs"/>
+        <Compile Include="Program.fs"/>
+    </ItemGroup>
+
+</Project>

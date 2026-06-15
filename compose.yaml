@@ -1,0 +1,7 @@
+﻿services:
+  program:
+    build:
+      dockerfile: dockerfile
+      context: .
+      tags:
+        - program
